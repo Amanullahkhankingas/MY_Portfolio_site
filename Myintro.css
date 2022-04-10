@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main2{
+    width: 100vw;
+    background-color: rgb(212, 246, 250);
+}
+
+.introductioncontianer{
+    margin: 4rem 4rem;
+}
+
+.introductioncontianer h2{
+    color: white;
+text-shadow: 3px 3px 3px black;
+    color: rgb(202, 200, 200);
+
+    margin: 0.6em 0em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.introductioncontianer p{
+
+    color: white;
+text-shadow: 3px 3px 3px black;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.skillscontainer{
+    display: flex;
+    justify-content: space-between;
+    width: 78vw;
+    
+    
+/* background-color: sandybrown; */
+font-family:  sans-serif;
+font-weight: bolder;
+color: white;
+
+text-shadow: 3px 3px 3px black;
+}
+.skillscontainer label{
+
+    margin: 2em 0em;
+}
+
+.skill{
+    
+}
+
+.skillsitem{
+    display: flex;
+    justify-content:start;
+    
+    margin: 2em 2em;
+
+    width: 60vw;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 1em;
+    background-color: thistle;
+    /* margin-left: 90px; */
+
+    animation:animateColor 8s linear infinite;
+}
+
+@keyframes animateColor {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+
+        filter: hue-rotate(360deg);
+    }
+    
+}
+
+
+
+ #html{
+  border-radius: 23px;  
+    /* margin-left: 108px; */
+
+    background-color: green;
+    width: 1vw;
+    opacity: 0.6;
+    animation: html 10s ease-in-out 0.5s 1 forwards alternate;
+}
+@keyframes html {
+    0%{
+        width: 1vw;
+        opacity: 0.1;
+      background-color: red;
+    }
+    25%{
+             background-color: blue;
+            }
+            
+
+    50%{
+        width: 58vw;
+        opacity: 0.9;
+        
+        background-color: green;
+    }
+
+    75%{
+        width: 20vw;
+        opacity: 0.4;
+        
+        background-color: blue;
+
+    }
+    100%{
+        width: 57vw;
+        opacity: 01;
+        background-color: green;
+    }
+    
+}
+#css{
+    /* margin-left: 118px; */
+    border-radius: 23px;
+    background-color: rgb(232, 255, 27);
+    width: 2vw;
+    animation: css 11s ease-in-out 0.5s 1 forwards;
+
+}
+@keyframes css {
+    0%{
+        width: 1vw;
+        opacity: 0.1;
+      background-color: red;
+    }
+    25%{
+             background-color: blue;
+            }
+            
+    
+    50%{
+        width: 58vw;
+        opacity: 0.9;
+        
+        background-color: green;
+    }
+    
+    75%{
+        width: 20vw;
+        opacity: 0.4;
+        
+        background-color: blue;
+    
+    }
+    100%{
+        width: 52vw;
+        opacity: 01;
+        background-color:yellow;
+    }
+    
+    
+}
+#javascrift{
+    /* margin-left: 57px; */
+    border-radius: 23px;
+    background-color: rgb(17, 227, 255);
+    width: 40vw;
+    animation: javascrift 12s ease-in-out 0.5s 1 forwards;
+    
+}
+@keyframes javascrift {
+    0%{
+        width: 1vw;
+        opacity: 0.1;
+      background-color: red;
+    }
+    25%{
+             background-color: blue;
+            }
+            
+    
+    50%{
+        width: 58vw;
+        opacity: 0.9;
+        
+        background-color: green;
+    }
+    
+    75%{
+        width: 20vw;
+        opacity: 0.4;
+        
+        background-color: blue;
+    
+    }
+    100%{
+        width: 40vw;
+        opacity: 01;
+        background-color:aqua;
+    }
+    
+}
+#nodeJs{
+    
+    /* margin-left: 83px; */
+    border-radius: 23px;
+    background-color: blue;
+    width: 2vw;
+    animation: nodeJs 13s ease-in-out 0.5s 1 forwards;
+
+}
+@keyframes nodeJs {
+    0%{
+        width: 1vw;
+        opacity: 0.1;
+      background-color: red;
+    }
+    25%{
+             background-color: blue;
+            }
+            
+    
+    50%{
+        width: 58vw;
+        opacity: 0.9;
+        
+        background-color: green;
+    }
+    
+    75%{
+        width: 20vw;
+        opacity: 0.4;
+        
+        background-color: blue;
+    
+    }
+    100%{
+        width: 33vw;
+        opacity: 01;
+        background-color:blue;
+    }
+}
+#php{
+    /* margin-left: 123px; */
+    border-radius: 23px;
+    
+    background-color: rgb(128, 0, 0);
+    width: 2vw;
+    animation: php 14s ease-in-out 0.5s 1 forwards;
+    
+}
+@keyframes php {
+    0%{
+        width: 1vw;
+        opacity: 0.1;
+      background-color: red;
+    }
+    25%{
+        background-color: blue;
+            }
+            
+    
+    50%{
+        width: 58vw;
+        opacity: 0.9;
+        
+        background-color: green;
+    }
+    
+    75%{
+        width: 20vw;
+        opacity: 0.4;
+        
+        background-color: blue;
+    
+    }
+    100%{
+        width: 22vw;
+        opacity: 01;
+        
+        background-color: rgb(128, 0, 0);
+        
+    }
+    
+}
+
+/*  the sucess presentages of the bar in form of classes  */
+
+/* .nintyP{
+    width: 60vw;
+    background-color: green;
+     }
+.eightyP{
+    width: 50vw;
+    background-color: rgb(232, 255, 27);
+     }
+.sixtyP{
+    width: 40vw;
+    background-color: rgb(17, 227, 255);
+}
+.fiftyP{
+    width: 35vw;
+    background-color: blue;
+     }
+.thirtyP{
+    width: 20vw;
+    background-color: rgb(128, 0, 0);
+     } */

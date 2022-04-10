@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ .mainblog{
+    background-color: rgb(136 137 130);
+     width: 100vw;
+     height: auto;
+} 
+
+.blogscontainer{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 1rem 4rem;
+    
+    
+}
+.blogscontainer h1{
+    margin: 4rem 4rem;
+    color:gray;
+    text-shadow: 3px 5px 3px white;
+}
+.blogitems h2{
+    color:rgb(167, 164, 164);
+    margin: 0.4em 0em;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    
+    
+}
+.blogitems p{
+    color: white
+    text-shadow: 3px 3px 3px black;
+    
+
+}
