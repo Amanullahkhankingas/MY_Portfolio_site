@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+        background-color: rgb(13 30 75 / 81%);
+}
 .container{
     display: flex;
 }
@@ -58,6 +61,8 @@
     height: auto;
     /* margin:auto 0rem; */
      /* background-color: rgb(181 206 206); */
+
+     /* background-color: rgb(13 30 75 / 58%); */
 }
 
 .infocontainer{
@@ -74,7 +79,7 @@
 
 .devinfo{
     font-family: fantasy;
-    color: rgb(56, 56, 56);
+    color: white;
     font-size: 16px;
     margin: 0.1em 2em;
 }
@@ -138,9 +143,9 @@
 
     margin: 0.1em 2em;
 }
-.devpic span{
+/* .devpic span{
     
-}
+} */
 .devpic img{
     /* height: 60vh; */
 
@@ -313,8 +318,9 @@
 
     .infocontainer{
         
-        margin: 4em 0em 0em 0.5em;
+        /* margin: 4em 0em 0em 0.5em; */
         align-items: center;
+        justify-content: center;
         
 
         flex-wrap: wrap;
@@ -332,7 +338,7 @@
     .devpic img{
         /* height: 35vh; */
         width: 55%;
-        height: 55%;
+        height: 55%; 
 
     }
 

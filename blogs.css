@@ -3,7 +3,8 @@
     padding: 0;
 }
  .mainblog{
-    background-color: rgb(136 137 130);
+    /* background-color: rgb(136 137 130); */
+    background-color: rgb(13 30 75 / 92%);
      width: 100vw;
      height: auto;
 } 

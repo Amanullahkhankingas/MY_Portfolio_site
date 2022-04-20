@@ -7,7 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portpolio website</title>
 </head>
+
+
 <link rel="stylesheet" href="style.css">
+<style>
+    .about-combine{
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+    }
+</style>
 
 <body>
 
@@ -36,7 +45,11 @@
                 <div class="devinfo">
                     <div class="hellow">HI i am</div>
                     <div class="name">AMANULLAH</div>
-                    <div class="about">Developer, Frelancer ,Entrepreneur</div>
+                    
+                    <div class="about-combine">
+                    <!-- <div class="about auto-type">Developer, Frelancer ,Entrepreneur</div> -->
+                    <div class="about auto-type "></div>
+                    </div>
                     <div class="moreabout">I am a web developer, I can develop front end ,back end and also can ready
                         the website for hosting like on <b> digital ocean</b> etc</div>
                     <div class="buttons">
@@ -46,7 +59,7 @@
                 </div>
 
                 <div class="devpic">
-                    <img src="developer.png" alt="the hero">
+                    <img src="amanimg.png" alt="image loading error">
                 </div>
             </div>
         </div>
@@ -54,6 +67,20 @@
 
 
 <script src="/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+var typed = new Typed(".auto-type",{
+    // strings: ["Developer","Entrepreneur","Frelancer"],
+    strings: ["Developer, Entrepreneur, Frelancer"],
+    typeSpeed: 110,
+    backSpeed:50,
+    loop:true,
+
+}) 
+
+
+</script>
 </body>
 
 </html>

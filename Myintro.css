@@ -3,9 +3,14 @@
     padding: 0;
 
 }
+
+body{
+
+    background-color: rgb(6, 20, 59)
+}
 .main2{
-    width: 100vw;
-    background-color: rgb(212, 246, 250);
+    min-width: 100vh;
+    /* background-color: rgb(212, 246, 250); */
 }
 
 .introductioncontianer{
@@ -308,3 +313,101 @@ text-shadow: 3px 3px 3px black;
     width: 20vw;
     background-color: rgb(128, 0, 0);
      } */
+
+
+
+
+
+     /* Media query? */
+
+
+
+     @media  screen and (max-width:900px) {
+         *{
+             /* background-color: red; */
+         }
+         
+         
+         .skillscontainer{
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+           
+            /* width: 98vw; */
+            
+            
+        /* background-color: sandybrown; */
+        /* font-family:  sans-serif; */
+        /* font-weight: bolder; */
+
+        
+        /* text-shadow: 3px 3px 3px black; */
+        }
+        .skillscontainer label{
+        
+            margin: 0em 0em;
+        }
+        
+        /* .skill{
+            
+        } */
+        
+        .skillsitem{
+            /* display: flex; */
+            /* justify-content:start; */
+            
+            margin: 2em 0em;
+            
+            width: 80vw;
+            /* height: 20px; */
+            /* border: 2px solid white; */
+            /* border-radius: 1em; */
+            /* background-color: thistle; */
+            /* margin-left: 90px; */
+            
+            
+        }
+    }
+    @media  screen and (max-width:500px) {
+        
+        
+        .main2{
+           min-width: 100%;
+           /* background-color: rgb(212, 246, 250); */
+           background-color: rgb(13 30 75 / 92%);
+       }
+        .skillscontainer label{
+        
+            margin: 0em 0em;
+            margin-left: 0.3em;
+        }
+        
+        .skillsitem{
+            
+            margin: 1em 0em;
+            
+        
+            width: 80vw;
+            
+        
+             
+        }
+
+        
+
+        .introductioncontianer{
+            text-align: center;
+            margin: 1rem 1rem;
+        }
+        .my-skills-containr{
+            text-align: start;
+        }
+
+        .line{
+    
+            border-top: 4px solid white;
+            box-shadow: 6px 6px 44px 12px rgb(245, 226, 190),
+                        6px 6px 84px 22px rgb(6, 6, 6)  ;
+        }
+     }
