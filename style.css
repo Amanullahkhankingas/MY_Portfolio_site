@@ -5,11 +5,20 @@
 body{
         background-color: rgb(13 30 75 / 81%);
 }
+
+.my-about{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
 .container{
     display: flex;
 }
 
 .sidebar{
+
+    z-index: 12;
     /* position: sticky; */
     position: fixed;
     top: 0px;
@@ -17,10 +26,23 @@ body{
     
     color: white;
     /* width: 10vw; */
-    height: 100vh;
+    min-height: 100vh;
     border-radius: 0.3rem;
 
     transition: transform 0.8s ease-in;
+    animation: animateS 1s 0.001s 1;     
+    
+}
+
+
+@keyframes animateS {
+
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 .sidebar::before{
     content: "";
@@ -174,8 +196,21 @@ body{
 /* sidebar go css class */
 
 .gosidebar{
-    transform: translate(-140px, 0px);
+    /* transform: translate(-140px, 0px); */
+    opacity: 0.0001;
+    translate: 0.5s;
     position: absolute;
+    animation: animate 1s 0.001s 1;     
+
+}
+@keyframes animate {
+
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
 }
 
 
@@ -184,7 +219,7 @@ body{
 /* hamburger setting */
 
 .hamburger {
-    
+    z-index: 13;
     position: absolute;
     cursor: pointer;
     top: 8px;

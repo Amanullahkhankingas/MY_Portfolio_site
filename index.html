@@ -36,7 +36,12 @@
                 <div class="devinfo">
                     <div class="hellow">HI i am</div>
                     <div class="name">AMANULLAH</div>
-                    <div class="about">Developer, Frelancer ,Entrepreneur</div>
+
+                    <div class="my-about">
+                        <!-- <div class="about auto-typed">Developer, Frelancer ,Entrepreneur</div> -->
+                        <div class="about auto-typed"></div>
+                    </div>
+
                     <div class="moreabout">I am a web developer, I can develop both front end ,back end and also ready
                         the website for hosting, like on <b> digital ocean</b> etc</div>
                     <div class="buttons">
@@ -47,7 +52,7 @@
 
                 <div class="devpic">
                     <img src="amanimg.png" alt="image loading error">
-                                   
+
                 </div>
             </div>
         </div>
@@ -55,6 +60,19 @@
 
 
     <script src="/script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed('.auto-typed', {
+            // Waits 1000ms after typing "First"
+            // strings: ['First ^1000 sentence.', 'Developer, Frelancer ,Entrepreneur'],
+            strings: ['Developer, Frelancer ,Entrepreneur','I have Two year of full stack web development experience','I also one year of working experience on fiverr freelance platform'],
+            typeSpeed: 50,
+            backSpeed: 20,
+            loop: true,
+        });
+    </script>
 </body>
 
 </html>
