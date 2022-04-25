@@ -196,11 +196,8 @@ body{
 /* sidebar go css class */
 
 .gosidebar{
-    /* transform: translate(-140px, 0px); */
-    opacity: 0.0001;
-    translate: 0.5s;
-    position: absolute;
-    animation: animate 1s 0.001s 1;     
+    transform: translate(-140px, 0px);
+   
 
 }
 @keyframes animate {
