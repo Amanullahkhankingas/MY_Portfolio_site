@@ -1,0 +1,30 @@
+.mypic img{
+    width: 400px;
+    height: 400px;
+    border: 6px solid aqua;
+    /* filter: drop-shadow(23px 23px 23px black); */
+    box-shadow: 0px 0px 44px black,
+                0px 0px 84px red;
+}
+
+.btn{
+    color: white;
+    border-radius: 22px;
+    background-color: purple;
+    width: 7rem;
+    padding: 8px 4px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 23px;
+    cursor: pointer;
+    margin: 23px 8rem;
+}
+.btn:hover{
+    color: rgb(249, 220, 220);
+    border-radius: 22px;
+    background-color:rgb(69, 2, 69);
+    /* width: 7rem; */
+    padding: 8px 4px;
+    border:2px solid black;
+    box-shadow: inset 0px 0px 23px white;
+}
